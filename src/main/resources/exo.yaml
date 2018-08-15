@@ -1,0 +1,16 @@
+name: Test User
+version: 1.2
+description: 30
+dependencies:
+  args: args
+  browser: browser
+  geo: Washington D.C.
+  shelf: 20000
+  shelf_web_socket: any
+  shelf_static: any
+  xml_rpc: any
+  google_maps: any
+  dart_to_js_script_rewriter: any
+transformers:
+  - User
+  - Editor
